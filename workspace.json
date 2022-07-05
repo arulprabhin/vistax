@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "projects": {
+    "spa": "apps/spa",
+    "shared": "apps/shared",
+    "dashboard": "apps/dashboard",
+    "api": "apps/api",
+    "auth": "apps/auth",
+    "hunt": "apps/hunt"
+  }
+}

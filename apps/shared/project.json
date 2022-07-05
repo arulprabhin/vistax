@@ -1,0 +1,28 @@
+{
+  "root": "apps/shared",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "yarn build",
+        "cwd": "apps/shared"
+      }
+    },
+    "start": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "yarn start",
+        "cwd": "apps/shared"
+      }
+    },
+    "install": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "yarn install",
+        "cwd": "apps/shared"
+      }
+    }
+  },
+  "implicitDependencies": []
+}

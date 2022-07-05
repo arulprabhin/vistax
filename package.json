@@ -1,0 +1,45 @@
+{
+  "name": "mui-vista",
+  "version": "1.0.0",
+  "description": "MUI VISTA v2",
+  "scripts": {
+    "start": "nx run-many --target=start --all --parallel --maxParallel=100",
+    "build": "nx run-many --target=build --all --parallel --maxParallel=100 --exclude=api",
+    "install-packages": "yarn install && nx run-many --target=install --all --parallel --maxParallel=100",
+    "install-all": "yarn install && nx run-many --target=install --all",
+    "test": "jest --config=jest.config.js --env=jsdom",
+    "test:e2e": "cypress open",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@cypress/react": "^5.12.1",
+    "@cypress/webpack-dev-server": "^1.8.0",
+    "@nrwl/cli": "latest",
+    "@nrwl/nx-cloud": "latest",
+    "@nrwl/tao": "latest",
+    "@nrwl/workspace": "latest",
+    "regenerator-runtime": "^0.13.9",
+    "speed-measure-webpack-plugin": "^1.5.0",
+    "typescript": "4.2.4"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "cypress": "^9.2.1",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "jest": "^27.4.5",
+    "prettier": "^2.5.1",
+    "redux-mock-store": "^1.5.4",
+    "typescript": "4.2.4",
+    "url-loader": "^4.1.1"
+  }
+}

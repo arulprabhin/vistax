@@ -1,0 +1,105 @@
+.user__role,
+.anomaly-chart__desc,
+.activity__desc,
+.left-table .point__info {
+    color: #848484;
+    fill: #848484;
+    letter-spacing: 0.09px;
+    font-size: 0.8rem;
+    line-height: 1.85185vh;
+    font-weight: 300;
+}
+
+.cicle_progress,
+.vertical_divider,
+.anomaly-chart__chart .axis .tick line,
+.x.axis line,
+.y.axis line,
+.left-table .circle__outer-line,
+.left-table .table__line {
+    stroke: #fff;
+    opacity: 0.16;
+}
+
+.cicle_progress,
+.vertical_divider,
+.anomaly-chart__chart .axis .tick line,
+.x.axis line,
+.y.axis line,
+.left-table .circle__outer-line,
+.left-table .table__line {
+    stroke: #fff;
+    opacity: 0.16;
+}
+
+.left-table {
+    width: 100%;
+    height: 100%;
+}
+
+.left-table .qty,
+.left-table .point,
+.left-table .arcs__arc,
+.left-table .animted-circle,
+.left-table .center__circle_filled,
+.left-table .qty__text,
+.left-table .info-circle__value {
+    fill: #fff;
+}
+
+.left-table .info-circle__value {
+    letter-spacing: 0.4px;
+}
+
+.left-table .info-circle,
+.left-table .center_bordered,
+.left-table .center__circle {
+    stroke: #fff;
+}
+
+.left-table .circle__outer-line,
+.left-table .table__border,
+.left-table .table__line_vertical,
+.left-table .center_bordered,
+.left-table .table__line_horizontal,
+.left-table .info-circle {
+    fill: none;
+}
+
+.left-table .table__border {
+    stroke: #848484;
+    stroke-dasharray: 2 2;
+    stroke-miterlimit: 8;
+}
+
+.left-table .table__line {
+    stroke-miterlimit: 10;
+}
+
+.left-table .center__circle_filled {
+    stroke: none;
+}
+
+.left-table .center_bordered_dashed {
+    stroke-dasharray: 2 2;
+    stroke-miterlimit: 8;
+}
+
+.left-table .circle__light {
+    opacity: 0.6;
+}
+
+.left-table .info-circle {
+    stroke-width: 2px;
+}
+
+.left-table .info-circle__value {
+    font-size: 2.22222vh;
+    font-weight: 500;
+}
+
+.left-table .qty__text {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}

@@ -1,0 +1,11 @@
+.custom-bg-gauge circle:nth-child(1), .custom-bg-gauge circle:nth-child(2) {
+    fill: transparent !important;
+}
+
+.custom-bg-gauge circle:nth-child(1) {
+    stroke: transparent !important;
+}
+
+.custom-bg-gauge text {
+    fill: slategray !important;
+}

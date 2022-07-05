@@ -1,0 +1,21 @@
+{
+  "root": "apps/api",
+  "projectType": "library",
+  "targets": {
+    "start": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "yarn start",
+        "cwd": "apps/api"
+      }
+    },
+    "install": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "yarn install",
+        "cwd": "apps/api"
+      }
+    }
+  },
+  "implicitDependencies": []
+}
